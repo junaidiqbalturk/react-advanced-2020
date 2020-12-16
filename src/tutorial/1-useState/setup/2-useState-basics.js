@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 
+// use 
+// component name must be uppercase in case of Hooks/useState
+//Hooks need to be in the function or component body
+// must be in function/component body 
+// cannot call conditionally 
+
+
+
 const UseStateBasics = () => {
-  // console.log(useState('hello world'));
-  // const value = useState(1)[0]
-  // const handler = useState(1)[1];
-  // console.log(value, handler);
   const [text,setText] = useState('random title');
 
   const handleClick = () =>{
