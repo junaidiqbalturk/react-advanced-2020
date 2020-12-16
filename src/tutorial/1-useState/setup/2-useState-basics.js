@@ -10,10 +10,10 @@ const UseStateBasics = () => {
   const handleClick = () =>{
     if (text === 'random title')
     {
-      setText('Hello World');
+      setText('Hello World');   //it will set the text to new text if the text is 'random title'
     }
     else{
-      setText('random title');
+      setText('random title');   // this will revert back the changes 
     }
 
   };
